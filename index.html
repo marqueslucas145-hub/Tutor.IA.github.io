@@ -1,0 +1,58 @@
+# 🤖 TutorIA-Educacional
+
+O **TutorIA-Educacional** é um protótipo de tutor inteligente projetado para transformar a experiência de aprendizagem. Ele atua de forma adaptativa, identificando os erros dos alunos e fornecendo dicas personalizadas em vez de apenas entregar a resposta correta, estimulando o pensamento crítico e a autonomia pedagógica.
+
+---
+
+## 🎯 Objetivos Pedagógicos
+
+* **Aprendizagem Ativa:** Incentivar o estudante a descobrir a resposta por meio de pistas e andaime cognitivo (Scaffolding).
+* **Adaptabilidade:** Ajustar o nível de dificuldade de forma automatizada com base no desempenho em tempo real.
+* **Feedback Construtivo:** Tratar o erro como parte do processo de aprendizagem, oferecendo feedbacks detalhados e direcionados.
+
+---
+
+## 🛠️ Estrutura do Projeto
+
+O projeto está dividido em duas frentes de demonstração:
+
+1. **Apresentação Visual (Scratch):** Uma interface lúdica e interativa construída no Scratch para ilustrar a lógica do tutor de forma visual. O arquivo `.sb3` está disponível na pasta `/scratch`.
+2. **Demonstração Técnica (Python / Web):** Uma aplicação interativa que simula a inteligência do tutor processando as variáveis de desempenho do usuário.
+
+---
+
+## 📊 Lógica de Desempenho e Adaptabilidade
+
+O sistema monitora o progresso do usuário através de duas variáveis principais:
+* `Pontuação`: Incrementada a cada acerto.
+* `Nível de Dificuldade`: Sobe automaticamente após uma sequência de acertos e diminui ou ativa o "Modo Dica" em caso de erros consecutivos.
+---
+
+## 🚀 Como Executar o Projeto
+
+### Versão Scratch
+1. Baixe o arquivo `TutorIA.sb3` localizado na pasta `/scratch` deste repositório.
+2. Acesse o [Scratch MIT](https://mit.edu).
+3. Vá em **Arquivo** > **Carregar do seu computador** e selecione o arquivo baixado.
+
+### Versão Python (Streamlit)
+Se preferir rodar a versão em código localmente:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com
+   ```
+2. Instale as dependências:
+   ```bash
+   pip install streamlit
+   ```
+3. Execute a aplicação:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
